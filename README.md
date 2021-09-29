@@ -26,13 +26,14 @@ GenshinDailyHelper.Docs
 - 通过浏览器登录米哈游论坛 https://bbs.mihoyo.com/ys/
 - 按```F12```，打开```开发者工具 -> Network``` 点击进入
 - 刷新网页，找到以下的位置,复制Cookie后放在记事本或其它可以保存的地方
+
 ![Cookie所在位置](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/cookie.png)
 
 ### 1.2 第二步，登录腾讯云，创建函数
 - 进入腾讯云 https://cloud.tencent.com/
-- 进入个人中心 https://console.cloud.tencent.com/developer
-- 找到云函数进入页面
+- 进入个人中心，找到云函数进入页面 https://console.cloud.tencent.com/developer
 ![云函数所在位置](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/scf.png)
+
 - 点击新建进入创建函数页面
 ![新建函数](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/scf-new.png)
 - 依次选择 自定义创建,运行环境(CustomRuntime),本地上传zip包(上传zip包)，其他按照下图默认
