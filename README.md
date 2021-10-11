@@ -4,7 +4,7 @@ GenshinDailyHelper.Docs
 
 </h1>
 
-**该项目会直接采用云函数或docker方式部署**
+**该项目建议采用云函数或docker方式部署**
 
 **原神的签到福利是需要单独下载APP进行才可以领取，并且每天需要打卡，虽然奖励并不是很可观，但有一些摩拉，食材和可观的经验书累计起来还是挺有吸引力的。可能本身不怎么刷论坛的玩家往往会忽略这些奖励。**
 
@@ -19,7 +19,7 @@ GenshinDailyHelper.Docs
 
 **如果可以的话，左上角的```Star```顺便点一下吧 > 3 <**
 
-## 使用方法
+## 使用方法 - 腾讯云函数
 签到是通过接口模拟请求达成目的，因此需要cookie信息来作为第一步
 
 ### 1.1 第一步，获取自己的Cookie信息
@@ -52,3 +52,4 @@ GenshinDailyHelper.Docs
 ![测试结果](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/scf-test-run-result.png)
 - 设置定时时间等信息，触发周期为自定义触发周期（注意这里时间是北京时间，和Github的定时不一样），格式依旧是Cron格式
 ![触发器](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/scf-event.png)
+- 可以在日志中查看每天执行的结果，以后会接入Service酱消息通知
