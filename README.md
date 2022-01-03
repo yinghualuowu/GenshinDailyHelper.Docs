@@ -4,8 +4,6 @@ GenshinDailyHelper.Docs
 
 </h1>
 
-**根据去年的情况，该项目可能将于`2022-01-01`将失效**
-
 **该项目建议采用云函数或docker方式部署**
 
 **原神的签到福利是需要单独下载APP进行才可以领取，并且每天需要打卡，虽然奖励并不是很可观，但有一些摩拉，食材和可观的经验书累计起来还是挺有吸引力的。可能本身不怎么刷论坛的玩家往往会忽略这些奖励。**
@@ -30,6 +28,9 @@ GenshinDailyHelper.Docs
 - 刷新网页，找到以下的位置,复制Cookie后放在记事本或其它可以保存的地方
 
 ![Cookie所在位置](https://cdn.jsdelivr.net/gh/yinghualuowu/SakuraWallpaper@e6384d0/cnblog/head/genshin/cookie.png)
+
+Cookie获取方式新方法
+- https://github.com/Womsxd/AutoMihoyoBBS#%E8%8E%B7%E5%8F%96%E7%B1%B3%E6%B8%B8%E7%A4%BECookie
 
 ### 1.2 第二步，登录腾讯云，创建函数
 - 进入腾讯云 https://cloud.tencent.com/
