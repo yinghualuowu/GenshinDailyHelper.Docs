@@ -12,6 +12,7 @@ GenshinDailyHelper.Docs
 * **获取账号信息（区域和UID）**
 * **判断是否已经完成签到**
 * **未进行签到到执行签到动作**
+* **项目链接 https://github.com/yinghualuowu/GenshinDailyTools**
 
 重要提示
 
